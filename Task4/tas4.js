@@ -33,7 +33,7 @@ function ArithmeticAverage(numbers) {
       return null; 
     }
     let sum = 0;
-    for (var i = 0; i < numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
       sum += numbers[i];
     }
   
