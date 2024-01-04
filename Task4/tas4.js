@@ -60,6 +60,19 @@
 // function power(base, exponent) {
 //   return Math.pow(base, exponent);
 // }
-// var result = power(2, 3);
+// let result = power(2, 3);
 // console.log(result);
 //--------------------------------------------------------------------------
+function countVowels(str) {
+  str = str.toLowerCase();
+  let vowels = "aeiou";
+  let count = 0;
+  for (var i = 0; i < str.length; i++) {
+    if (vowels.indexOf(str[i]) !== -1) {
+      count++;
+    }
+  }
+  return count;
+}
+var result = countVowels("Hello, World!");
+console.log(result);
