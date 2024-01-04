@@ -51,3 +51,15 @@
 // let reversedString = reverseString(originalString);
 // console.log(reversedString);
 //--------------------------------------------------------------------------
+// function randomNumber(min, max) {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// let result = randomNumber(10, 20);
+// console.log(result);
+//--------------------------------------------------------------------------
+// function power(base, exponent) {
+//   return Math.pow(base, exponent);
+// }
+// var result = power(2, 3);
+// console.log(result);
+//--------------------------------------------------------------------------
