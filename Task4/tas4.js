@@ -76,3 +76,4 @@ function countVowels(str) {
 }
 var result = countVowels("Hello, World!");
 console.log(result);
+//--------------------------------------------------------------------------
