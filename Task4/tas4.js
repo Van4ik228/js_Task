@@ -43,4 +43,32 @@ function ArithmeticAverage(numbers) {
   var num4 = [1, 2, 3, 4, 5];
   var middle = ArithmeticAverage(числа);
   console.log("Среднее арифметическое чисел " + num4 + " равно: " + middle);
-    
+//--------------------------------------------------------------------------
+function verseString(inputString) {
+  return inputString.split('').reverse().join('');
+}
+
+function randomnumber(low, high) {
+  return Math.floor(Math.random() * (high - low + 1)) + low;
+}
+function power(base, exponent) {
+  return Math.pow(base, exponent);
+}
+function countVowels(inputString) {
+  const vowels = "aeiouAEIOU";
+  let count = 0;
+  for (let char of inputString) {
+      if (vowels.includes(char)) {
+          count++;
+      }
+  }
+  return count;
+}
+function concatenateStrings(str1, str2) {
+  return str1 + str2;
+}
+console.log(verseString("Hello"));  
+console.log(randomnumber(1, 10)); 
+console.log(power(2, 3));  
+console.log(countVowels("Programming")); 
+console.log(concatenateStrings("Hello", "World"));  
